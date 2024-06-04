@@ -1,9 +1,4 @@
 body {
-    /* margin: 0;
-    color: rgb(228, 239, 245);
-    background-image: url("Universe.jpg");
-    background-size: cover 100%;
-    width: 100%; */
     min-height: 100%;
     margin: 0 auto;
     text-align: center;
@@ -11,10 +6,7 @@ body {
     font-optical-sizing: auto;
     font-weight: normal; /*<weight>: Use a value from 400 to 900*/
     font-style: normal;
-    font-size: 25px;
-    text-shadow: 0px -3px 15px rgb(183, 32, 243), 0.1em 0.2em rgb(255, 202, 202);
-    
-
+    font-size: 25px; 
 }
 #hero {
     color: rgb(228, 239, 245);
@@ -25,6 +17,7 @@ body {
     bottom: 0;
     left: 0;
     right: 0;    
+    text-shadow: 0px -3px 15px rgb(183, 32, 243), 0.1em 0.2em rgb(255, 202, 202);
 }
 
 #TandC{
@@ -35,8 +28,16 @@ body {
     align-items: center;
     position: fixed;
     height: 100px;
-    bottom: 0px;
-    background-color: white;
+    bottom: 0;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 30px;
+    border: 7px ridge rgba(224, 193, 195, 0.144);
+    background-color: rgba(17, 15, 17, 0.719);
+    color: white;
+    text-shadow: 0px -3px 15px rgb(183, 32, 243), 0.1em 0.1em rgb(255, 202, 202);
+    opacity: 0.7;
+
 }
 .glow {
     opacity: 0.8;
